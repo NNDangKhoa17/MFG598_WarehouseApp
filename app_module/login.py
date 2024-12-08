@@ -1,5 +1,5 @@
 from app_module.qt_modules import *
-import app_module.operation_shift as ops
+import app_module.warehouse_essential.operation_shift as ops
 
 class Login(QDialog):
     def __init__(self):

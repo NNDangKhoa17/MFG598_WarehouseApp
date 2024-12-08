@@ -1,0 +1,1 @@
+{"layout": {"type": "Rectangular", "dimension": [100, 100], "ref_pt_type": "corner", "buffer": 0, "ref_pt": [0.0, 0.0]}, "storage": [], "vehicle": [{"id": "1", "dock_location": [5.0, 95.0], "geometry": {"type": "Rectangular", "dimension": [2.0, 2.0], "ref_pt_type": "center", "buffer": 0.5, "ref_pt": [5.0, 95.0]}, "battery": 100}]}

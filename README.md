@@ -16,7 +16,7 @@ The graphical interface of the application (programmed using PySide 6.8.0 - a Py
 - __login:__ the module for handling the login/logout operation
 - __support_diaglog:__ pop-up diaglog for various purposes
 - __warehouse_monitor_widget:__ a main widget for warehouse monitor
-### External Public modules
+## External Public modules
 - __Pandas:__ for managing the units of storage and vehicle
 - __Numpy:__ usage of the @np.vectorize decorator for multiple units modifying
 - __Matplotlib:__ for ploting the heatmap and vehicle motion
@@ -24,4 +24,4 @@ The graphical interface of the application (programmed using PySide 6.8.0 - a Py
 - __GeoPandas:__ similar to pandas module with additional functionalities for geometric entities
 - __PySide__: GUI module
 #### References
-[1] Qt 6.8. Qt documentation. (n.d.). https://doc.qt.io/qt-6/index.html 
+__[1]__ Qt 6.8. Qt documentation. (n.d.). https://doc.qt.io/qt-6/index.html 

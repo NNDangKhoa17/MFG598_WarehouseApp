@@ -9,10 +9,10 @@ class Login(QDialog):
         layout = QFormLayout()
         self._id = QLineEdit()
         self._id.setPlaceholderText("Username")
-        self._id.setText("knn1")
+        # self._id.setText("knn1")
         self._pwd = QLineEdit()
         self._pwd.setPlaceholderText("Password")
-        self._pwd.setText("nome1")
+        # self._pwd.setText("nome1")
         self._pwd.setEchoMode(QLineEdit.Password) # To hide the password
         # Information input
         self._id.textEdited.connect(self.info_change)
@@ -23,7 +23,7 @@ class Login(QDialog):
         # Push buttons (i.e., OK, Quit)
         btn_layout = QHBoxLayout()
         self._login_btn = QPushButton("Login")
-        # self._login_btn.setEnabled(False)
+        self._login_btn.setEnabled(False)
         self._login_btn.clicked.connect(self._login_pressed)
         _cancel_btn = QPushButton("Cancel/Exit")
         _cancel_btn.clicked.connect(self._cancel_pressed)

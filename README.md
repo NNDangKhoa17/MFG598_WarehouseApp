@@ -18,7 +18,7 @@ The graphical interface of the application (programmed using PySide 6.8.0 - a Py
 - __warehouse_monitor_widget:__ a main widget for warehouse monitor
 ## External Public modules
 - __Pandas:__ for managing the units of storage and vehicle
-- __Numpy:__ usage of the @np.vectorize decorator for multiple units modifying
+- __Numpy:__ usage of the `@np.vectorize` decorator for multiple units modifying
 - __Matplotlib:__ for ploting the heatmap and vehicle motion
 - __Shapely:__ for generating geometric entities such as **Point**, **LineString**, and **Polygon**
 - __GeoPandas:__ similar to pandas module with additional functionalities for geometric entities
